@@ -1,0 +1,41 @@
+Moodle Scripts
+(c) 2011 Paul Vaughan, paulvaughan@southdevon.ac.uk
+
+Scripts available from:
+https://github.com/sdc/Moodle-Scripts
+
+Homepage:
+http://commoodle.southdevon.ac.uk/course/view.php?id=2
+
+Description:
+A collection of scripts which somehow assist with the administration/
+house-keeping and possibly development of Moodle.
+
+last-modified-course.php
+~~~~~~~~~~~~~~~~~~~~~~~~
+This script can be used to show when Moodle courses were last
+accessed, and by whom. It displays the information as a table with
+extra, useful information. It will need some initial configuration (see
+sections 1 and 2), after which it should work.
+
+Note that where more information may exist about a course/user, it
+has been added to the page as a 'title' attribute, which means that
+it should appear after a small delay when you hover your pointer
+over text on the screen.
+
+There is a history of changes at the bottom of the script.
+
+Licence
+~~~~~~~
+This script is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This script is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with This script.  If not, see <http://www.gnu.org/licenses/>.
