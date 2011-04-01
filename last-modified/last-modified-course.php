@@ -7,8 +7,9 @@
  * Script downloaded from, and updates available from:
  * http://commoodle.southdevon.ac.uk/course/view.php?id=2
  *
- * Last updated:    March 16th, 2011
- * Version:         1.0.0
+ * Last updated:    April 1st, 2011
+ * Version:         1.0.1
+ * Moodle Versions: 1.9.x, 2.0.x
  *
  * This script can be used to show when Moodle courses were last
  * accessed, and by whom. It displays the information as a table with
@@ -80,7 +81,7 @@ $max_line_length = 40;
 $date_format = 'M d Y, H:i';
 
 // Report title:
-$report_title = 'Moodle 1.9 Last-Modified Course Report';
+$report_title = 'Moodle Last-Modified Course Report';
 // Report strapline:
 $report_desc = 'Report generated: <strong>'.date($date_format, time()).'</strong>. Using the database <strong>'.$dbdb.'</strong>.';
 
@@ -89,7 +90,7 @@ $days_year = 365;
 
 /**
  * NOTE: You may also want to change the "print_category_links()"
- * function on (or about) line 173.
+ * function on (or about) line 177.
  */
 
 /**
@@ -184,7 +185,7 @@ function print_category_links() {
  * copy/paste the HTML and clear it up yourself.
  *
  * For this to actually do *anything* you'll need to uncomment the
- * function call on (or about) line 281.
+ * function call on (or about) line 286.
  */
 ?>
     <form name="categoryform">
@@ -461,6 +462,12 @@ if(DEBUG) { echo '    <p class="debug">Database connection closed.</p>'."\n"; }
 /**
  * Release History
  * ~~~~~~~ ~~~~~~~
+ *
+ * Version:     1.0.1
+ * Released:    April 1st, 2011
+ * Details:     Removed the '1.9' from the title as the script works well in
+ *                  Moodle 2.0.x (except for pictures, which use a different
+ *                  path and handle a lack of profile image differently).
  *
  * Version:     1.0.0
  * Released:    March 16th, 2011

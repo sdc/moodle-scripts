@@ -13,6 +13,9 @@ house-keeping and possibly development of Moodle.
 
 last-modified-course.php
 ~~~~~~~~~~~~~~~~~~~~~~~~
+
+For Moodle 1.9.x, 2.0.x.
+
 This script can be used to show when Moodle courses were last
 accessed, and by whom. It displays the information as a table with
 extra, useful information. It will need some initial configuration (see
